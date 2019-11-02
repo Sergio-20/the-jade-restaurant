@@ -209,9 +209,17 @@ li { list-style: none; }
   main { margin-left: 0; }
 
   .hero, .hero video { max-width: 100%; }
-  .hero-text { background: #FAF3EB; position: relative; left: 0; top: 0px; text-align: center; }
-  .hero-text h2 { color: #222; font-size: 40px; margin: 0; }
-  .hero-text p { color: #222; font-size: 27px; margin: 0; }
+  .hero-text { 
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; 
+    top: 80px; 
+    text-align: center; 
+  }
+  .hero-text h2 { color: #fff; font-size: 40px; margin: 0; }
+  .hero-text p { color: #fff; font-size: 27px; margin: 0; }
 
   .special-events-cta { min-height: 900px; }
 
@@ -230,5 +238,5 @@ li { list-style: none; }
 
   .special-events-cta { min-height: 950px; }
 
-  #parallax-text { position: relative; left: 0; top: -450px; }
+  #parallax-text { position: relative; left: 0; top: -470px; }
 }
