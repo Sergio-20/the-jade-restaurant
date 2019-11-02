@@ -1,5 +1,7 @@
 /*** Imports ***/
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
@@ -72,6 +74,11 @@ li { list-style: none; }
   background-color:rgba(255, 196, 0, 0.993);  
 }
 
+.bg-white {
+  background: #FAF3EB;
+  background-color: #FAF3EB;
+}
+
 .fa-facebook, .fa-instagram {
   font-size: 2em;  
   margin: 0.5em;
@@ -95,6 +102,11 @@ li { list-style: none; }
 .hero-text h2 { font-size: 60px; margin: 0; }
 .hero-text p { font-size: 27px; margin: 0; }
 
+.hr-grey {
+ border-bottom: 1px solid #c7b9a9; 
+ width: 30%;
+}
+
 .menu-divider {
   background-color:#fff;  
   display: inline-block;
@@ -104,7 +116,12 @@ li { list-style: none; }
 
 .no-underline:hover { text-decoration: none; }
 
+.text-center { text-align: center; }
+
+.text-black { color: #3d3833; }
+.text-grey { color: #c7b9a9; }
 .text-orange { color: rgba(255, 196, 0, 0.993); }
+.text-orange-dark { color: #f8751e; }
 .text-white { color: #fff; }
 
 
