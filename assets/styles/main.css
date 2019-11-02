@@ -79,6 +79,12 @@ li { list-style: none; }
   background-color: #FAF3EB;
 }
 
+.dark-overlay {
+  background: rgba(0,0,0, 0.5);
+  background-color:rgba(0,0,0, 0.5);
+  z-index: 2;
+}
+
 .fa-facebook, .fa-instagram {
   font-size: 2em;  
   margin: 0.5em;
@@ -116,6 +122,16 @@ li { list-style: none; }
 
 .no-underline:hover { text-decoration: none; }
 
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.special-events-cta { z-index: -1; }
+
 .text-center { text-align: center; }
 
 .text-black { color: #3d3833; }
@@ -135,4 +151,12 @@ li { list-style: none; }
 #reserve-btn:hover {
   background: #fff;
   color: #634F3C;
+}
+
+/*** Media Queries ***/
+@media only screen and (min-width: 1080px)
+{
+  header nav li:hover {
+    transform: scale(1.2);
+  }
 }
