@@ -15,6 +15,8 @@ body {
   overflow-x: hidden !important;
 }
 
+body, html { scroll-behavior: smooth !important; }
+
 a { color: #fff; text-decoration: none; }
 
 header nav {
@@ -113,6 +115,15 @@ li { list-style: none; }
  width: 30%;
 }
 
+.img-thumb {
+  margin: 1em;
+  height: auto;
+  width: 100%;
+  max-width: 250px;
+}
+
+.inline-block { display: inline-block; }
+
 .menu-divider {
   background-color:#fff;  
   display: inline-block;
@@ -128,6 +139,18 @@ li { list-style: none; }
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.pt-01, .pt-02 { margin: 0; }
+
+.pt-01 {
+  color: #fff;
+  font-size: 62px;
+}
+
+.pt-02 {
+  color:rgba(255, 196, 0, 0.993);
+  font-size: 22px;
 }
 
 .special-events-cta { z-index: -1; }
@@ -148,6 +171,13 @@ li { list-style: none; }
   color: rgba(255, 196, 0, 0.993);
 }
 
+#parallax-text {
+  margin-top: -450px !important;
+  position: relative;
+  top: 0px;
+  text-align: center;
+}
+
 #reserve-btn:hover {
   background: #fff;
   color: #634F3C;
@@ -159,4 +189,12 @@ li { list-style: none; }
   header nav li:hover {
     transform: scale(1.2);
   }
+
+  #parallax-text .btn:hover { transform: scale(1.1); }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 990px)
+{
+  header nav { width: 200px; }
+  main { margin-left: 200px; }
 }
